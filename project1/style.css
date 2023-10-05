@@ -1,0 +1,85 @@
+html
+{
+    font-family: sans-serif;
+}
+.background
+{
+    background-color: lightblue;
+}
+.jedi-code
+{
+    text-align: center;
+}
+.jedi-code table
+{
+    text-align: center;
+    border: 5px solid black;
+    padding: 8px;
+    margin: 0 auto;
+}
+.jedi-table 
+{
+    text-align: center;
+}
+.jedi-table th, td, table
+{
+    border: 4px solid black;
+    text-align: center;
+    padding: 8px;
+}
+.table-j
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.jedi-background
+{
+    background-color: yellowgreen;
+}
+.sith-background
+{
+    background-color: lightsalmon;
+}
+.sith-code
+{
+    text-align: center;
+}
+.sith-code table
+{
+    text-align: center;
+    border: 5px solid black;
+    padding: 8px;
+    margin: 0 auto;
+}
+.sith-table 
+{
+    text-align: center;
+}
+.sith-table th, td, table
+{
+    border: 4px solid black;
+    text-align: center;
+    padding: 8px;
+}
+.table-s
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.links
+{
+    background-color: #4c98af;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.link-case
+{
+    text-align: center;
+}
