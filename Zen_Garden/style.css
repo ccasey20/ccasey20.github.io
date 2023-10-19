@@ -1,0 +1,100 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+/* I took this from the example css but changed the color scheme */
+body { 
+	font: 90% georgia, sans-serif;
+	line-height: 1.88889;
+	color: black; 
+	background: bisque ; 
+	margin: 0; 
+	padding: 0;
+    /* margin-right: 340px; */
+}
+
+h3 { 
+	font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+header {
+    background: white url(https://img.freepik.com/premium-vector/watercolor-painting-old-bridge-temple_797981-1230.jpg) no-repeat top left;
+    width: 100%;
+    height: 300px;
+    background-size: 20% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+    
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+}
+    
+header h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+}
+
+/* I took .summary/.summary p from the example css but altered it to fit my style */
+.summary {
+    clear: both;  
+    width: 18%; 
+    float: center;
+    text-align: center;
+    margin-left: 40%;
+}
+.summary p {
+    font: italic 1.1em/2.2 georgia; 
+    text-align: center;
+}
+
+.preamble {
+    margin-right: 340px;
+}
+
+.explanation {
+    margin-right: 340px;
+}
+    
+.sidebar {
+    margin-left: 600px;
+     
+    position: absolute; 
+    top: 50%; 
+    right: 0;
+    border: 5px solid goldenrod
+}
+
+footer { 
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+footer a:link, footer a:visited { 
+	margin-right: 20px;
+    padding: 10px 60px;
+	}
+
+.page-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
