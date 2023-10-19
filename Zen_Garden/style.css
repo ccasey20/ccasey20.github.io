@@ -10,7 +10,6 @@ body {
 	background: bisque ; 
 	margin: 0; 
 	padding: 0;
-    /* margin-right: 340px; */
 }
 
 h3 { 
@@ -75,13 +74,13 @@ header h2 {
     
 .sidebar {
     margin-left: 600px;
-     
     position: absolute; 
     top: 50%; 
     right: 0;
     border: 5px solid goldenrod
 }
 
+/* I began with the footer from the example css but altered it to fit my style. */
 footer { 
     text-align: center;
     background-color: whitesmoke;
