@@ -85,12 +85,15 @@ body
     height: auto;
 }
 
-@keyframes cloudAnimation {
-    from {
+@keyframes cloudAnimation
+{
+    from
+    {
         transform: translateX(0);
     }
-    to {
-        transform: translateX(100%); /* Adjust the distance as needed */
+    to
+    {
+        transform: translateX(100%);
     }
 }
 
