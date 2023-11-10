@@ -1,0 +1,32 @@
+html, body
+{
+    text-align: center;
+    background-image: url('https://t3.ftcdn.net/jpg/01/91/78/32/360_F_191783282_0TVrx5VrvrkpDHSKdjjI87HkbXJy5TMw.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Arial', sans-serif;
+    padding: 20px; 
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
